@@ -1,19 +1,14 @@
 #include <stdio.h>
 
 /**
-  * main - prints out name of program
+  * main - prints out the number of inputed arguments
   * @argc: arguement count
   * @argv: arguement array
   * Return: 0;
   */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]__attribute__((unused)))
 {
-int a;
-		if (argc > 1)
-		for (a = 0; a < argc; a++)
-		{
-		printf("%s\n", argv[a]);
-		}
+		printf("%d\n", argc - 1);
 		return (0);
 }
