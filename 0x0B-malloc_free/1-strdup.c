@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 		size_t i, j;
-		char *strdout;
+		char *sat;
 
 		if (str == NULL)
 		{
@@ -17,14 +17,14 @@ char *_strdup(char *str)
 		}
 		for (i = 0; str[i] != '\0'; i++)
 
-		strdout = malloc(sizeof(char) * (i + 1));
+		sat = malloc(sizeof(char) * (i + 1));
 
-		if (strdout == NULL)
+		if (sat == NULL)
 		return (NULL);
 
 		for (j = 0; j <= i; j++)
 		{
-		strdout[j] = str[j];
+		sat[j] = str[j];
 		}
-		return (strdout);
+		return (sat);
 }
