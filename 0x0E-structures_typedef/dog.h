@@ -8,7 +8,12 @@
 * Description: user struct file
 */
 
-struct dog
+
+/**
+  * dog_t - new name for struct
+  */
+typedef struct dog dog_t;
+struct dog 
 {
 	 char *name;
 	 float age;
