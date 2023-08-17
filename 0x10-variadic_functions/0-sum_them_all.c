@@ -21,7 +21,7 @@ int sum_them_all(const unsigned int n, ...)
 		}
 		else
 		{
-			sum += va_arg(place, const unsigned int);
+			sum += va_arg(place, int);
 		}
 	}
 	va_end(place);
