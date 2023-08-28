@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* free-listint2 - A function that frees all nodes in a list and
+* free_listint2 - A function that frees all nodes in a list and
 * returns the head to null
 * @head: address to the first node on the list
 *
